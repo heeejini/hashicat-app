@@ -1,0 +1,8 @@
+terraform {
+  cloud {
+    organization = "hj-workspace"
+    workspaces {
+      name = "hashicat-aws"
+    }
+  }
+}
